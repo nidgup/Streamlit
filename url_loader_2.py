@@ -1,4 +1,4 @@
-
+import requirements.txt
 from langchain.chains import LLMChain
 from langchain_huggingface import HuggingFaceEndpoint
 from langchain.prompts import PromptTemplate
@@ -11,7 +11,6 @@ from langchain_community.document_loaders import UnstructuredURLLoader
 from langchain.text_splitter import  RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 from langchain_community.vectorstores import FAISS
-import requirements.txt
 import time
 import pickle
 import langchain
